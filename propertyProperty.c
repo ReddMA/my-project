@@ -206,7 +206,7 @@ int move(struct Player *player,
     sleep(2);
     printf("You rolled %d!\n", die);
     sleep(1);
-    player->position = 6;//+= die;
+    player->position = += die;
     if(player->position > 9)
     {
         player->position -= 10;
