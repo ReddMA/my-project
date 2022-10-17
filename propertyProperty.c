@@ -1167,7 +1167,7 @@ int main()
 {
     srand(time(0));
     struct Player p1, p2;
-    int property_tracker = 412040122;
+    int property_tracker = 000000000;
     int menuInput;
     printf("Loading");
     for (int i = 0; i <= 5; i++)
